@@ -1,5 +1,5 @@
-import React from 'react';
+import React from "react";
 export const CardList = (props) => {
-    console.log(props);
-    return (<div>Hello</div>);
+  console.log(props);
+  return <div>{props.children}</div>;
 };
